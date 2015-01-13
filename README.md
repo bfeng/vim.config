@@ -1,2 +1,2 @@
 # vim.config
-Next generation of vim configuration
+Next generation of vim configuration using Vundle
