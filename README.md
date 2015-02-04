@@ -1,12 +1,20 @@
 # vim.config
 Next generation of vim configuration using Vundle
 
+## How to install/uninstall
+
+## How to update
+
+## Global settings
+
+
 ## Key bindings
 
-|Shortcuts | Features|
-|----------|:---------|
-|F2|open/close Nerd tree|
+|Features|Mac iTerm|MacVim|GNOME Terminal|GVim|
+|--------|---------|------|--------------|----|
+|Toggle Nerd tree|F2|N/A|N/A|N/A|
+
+## Bundle packages
 
 ## License
-
 MIT License, see LICENSE file.
