@@ -13,6 +13,7 @@ Next generation of vim configuration using Vundle
 |Features|Mac iTerm|MacVim|GNOME Terminal|GVim|
 |--------|---------|------|--------------|----|
 |Toggle Nerd tree|F2|N/A|N/A|N/A|
+|Search files|Ctrl-P|N/A|N/A|N/A|
 
 ## Bundle packages
 
