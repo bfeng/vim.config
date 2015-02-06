@@ -69,5 +69,8 @@ filetype plugin indent on    " required
 " Global settings
 source ~/.vim/settings/global.vim
 
+" Plugin settings
+source ~/.vim/settings/plugin.vim
+
 " Key bindings: shortcuts
 source ~/.vim/settings/maps.vim
