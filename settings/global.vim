@@ -46,7 +46,8 @@ set hlsearch                          " search highlighting
 set incsearch                         " incremental search
 syntax enable
 
-noremap <CR> :nolhsearch<CR>
+" remove tailing whitespace
+autocmd BufWritePre * :%s/\s\+$//e
 
 try
 	colorscheme molokai

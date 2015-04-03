@@ -17,6 +17,7 @@ Next generation of vim configuration using Vundle
 |Next tab|F8|N/A|N/A|N/A|
 |Search files|Ctrl-P|N/A|N/A|N/A|
 |Comment/Uncomment selected lines| \\\\ |N/A|N/A|N/A|
+|Open a new tab| \\t |N/A|N/A|N/A|
 
 ## Bundle packages
 
