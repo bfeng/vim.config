@@ -16,6 +16,7 @@ set title
 set showmode
 set nobomb                            " no BOM(Byte Order Mark)
 set nostartofline
+set encoding=utf-8
 set laststatus=2
 set clipboard+=unnamed
 set splitright                        " always open vertical split window in the right side
@@ -26,6 +27,7 @@ set showtabline=2                     " always show tab
 set wildmode=longest,list             " use emacs-style tab completion when selecting files, etc
 set wildmenu                          " make tab completion for files/buffers act like bash
 set key=			      " disable encryption
+set t_Co=256
 
 " disable sound on errors
 set visualbell
@@ -51,6 +53,9 @@ autocmd BufWritePre * :%s/\s\+$//e
 
 try
 	colorscheme molokai
+	if has('gui_running')
+		set guifont=Source\ Code\ Pro\ for\ Powerline:h15
+	endif
 catch
 	colorscheme default
 endtry
