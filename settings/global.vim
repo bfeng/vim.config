@@ -54,7 +54,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 try
 	colorscheme molokai
 	if has('gui_running')
-		set guifont=Source\ Code\ Pro\ for\ Powerline:h15
+		set guifont=Source\ Code\ Pro\ for\ Powerline\ 10
 	endif
 catch
 	colorscheme default
