@@ -16,6 +16,7 @@ patch_fonts() {
 }
 
 update_submodule() {
+    git config http.sslVerify false
     git submodule update --init --recursive
 }
 
