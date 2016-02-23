@@ -1,3 +1,5 @@
+let $GIT_SSL_NO_VERIFY = 'true' " disable git ssl verification
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
