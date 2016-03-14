@@ -1,6 +1,9 @@
 " NERDTree toggle
 nnoremap <silent> <F2> :NERDTreeMirrorToggle<CR>
 
+" Taglist toggle
+nnoremap <silent> <F3> :Tlist<CR>
+
 " Disable search
 noremap <CR> :nohlsearch<CR>
 

@@ -19,7 +19,7 @@ TBA
 |Features|Mac iTerm|MacVim|GNOME Terminal|GVim|
 |--------|---------|------|--------------|----|
 |Toggle Nerd tree|F2|N/A|N/A|N/A|
-|Toggle Taglist window|N/A|N/A|N/A|N/A|
+|Toggle Taglist window|F3|F3|F3|F3|
 |Previous tab|F7|N/A|N/A|N/A|
 |Next tab|F8|N/A|N/A|N/A|
 |Search files|Ctrl-P|N/A|N/A|N/A|
