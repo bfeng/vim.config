@@ -34,6 +34,9 @@ let g:nerdtree_tabs_open_on_gui_startup=1
 let g:nerdtree_tabs_open_on_console_startup=0
 let g:nerdtree_tabs_focus_on_files=1
 
+" Tag list settings
+let Tlist_Use_Right_Window = 1
+
 " IndentLine settings
 let g:indentLine_char = '|'
 let g:indentLine_color_term = 239
