@@ -75,7 +75,8 @@ try
         set guioptions-=r  "remove right-hand scroll bar
         set guioptions-=L  "remove left-hand scroll bar
         "set guifont=Menlo\ for\ Powerline:h12 " Mac fonts
-        set guifont=Source\ Code\ Pro\ for\ Powerline\ Medium\ 10 " Ubuntu fonts or all other Linux distributions
+        "set guifont=Source\ Code\ Pro\ for\ Powerline\ Medium\ 10 " Ubuntu fonts or all other Linux distributions
+        set guifont=Sauce\ Code\ Powerline\ 12 " Ubuntu fonts or all other Linux distributions
     endif
     colorscheme molokai
     "colorscheme solarized " need further tuning up
