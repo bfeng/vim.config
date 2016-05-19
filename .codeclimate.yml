@@ -1,7 +1,10 @@
 ---
 engines:
+  vint:
+    enabled: true
   fixme:
     enabled: true
 ratings:
-  paths: []
+  paths:
+  - "**.vim"
 exclude_paths: []
