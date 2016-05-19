@@ -7,4 +7,5 @@ engines:
 ratings:
   paths:
   - "**.vim"
+  - "vimrc"
 exclude_paths: []
