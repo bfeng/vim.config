@@ -7,6 +7,7 @@
 Next generation of vim configuration using Vundle
 
 ## How to install/uninstall
+TBA
 
 ## How to update
 
