@@ -28,7 +28,23 @@ TBA
 | Toggle presentation mode                   | N/A       | N/A    | N/A            | N/A    |
 | Edit/Create README.md in current directory | N/A       | N/A    | N/A            | N/A    |
 
+## Syntax highlight
+
+* C
+* C++
+* Java
+* Javascript
+* Python
+* Ruby
+* HTML
+* CSS
+* Markdown
+* Latex
+* **TBA**
+
 ## Bundle packages
+
+**TBA**
 
 ## License
 MIT License, see LICENSE file.
