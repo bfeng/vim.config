@@ -1,5 +1,5 @@
 " NERDTree toggle
-nnoremap <silent> <F2> :NERDTreeMirrorToggle<CR>
+nnoremap <silent> <F2> :NERDTreeTabsToggle<CR>
 
 " Taglist toggle
 nnoremap <silent> <F3> :TlistToggle<CR>
