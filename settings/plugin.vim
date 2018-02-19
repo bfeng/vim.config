@@ -30,7 +30,7 @@ let g:airline#extensions#tabline#close_symbol = 'X'
 " NERDTree and NERDTree tabs settings
 let g:NERDTreeMinimalUI=1
 let g:NERDTreeIgnore=['\.pyc$', '\.class$', '\.o$']
-let g:nerdtree_tabs_open_on_gui_startup=1
+let g:nerdtree_tabs_open_on_gui_startup=0
 let g:nerdtree_tabs_open_on_console_startup=0
 let g:nerdtree_tabs_focus_on_files=1
 

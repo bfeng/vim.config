@@ -73,6 +73,9 @@ filetype plugin indent on    " required
 " Global settings
 source ~/.vim/settings/global.vim
 
+" Theme settings
+source ~/.vim/settings/theme.vim
+
 " Indent settings
 source ~/.vim/settings/indent.vim
 
