@@ -52,3 +52,8 @@ syntax enable
 
 " remove tailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
+
+" enable spell check for certain types
+autocmd FileType mail setlocal spell spelllang=en_us
+autocmd BufRead COMMIT_EDITMSG setlocal spell spelllang=en_us
+autocmd BufNewFile,BufRead *.tex,*.md,*.mkd,*.markdown set spell spelllang=en_us
