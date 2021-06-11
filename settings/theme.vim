@@ -14,8 +14,8 @@ try
             set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h12
         endif
     endif
-    "colorscheme molokai
-    colorscheme solarized " need further tuning up
+    colorscheme molokai
+    "colorscheme solarized " need further tuning up
     set background=dark
 catch
     colorscheme evening

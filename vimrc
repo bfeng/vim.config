@@ -54,6 +54,7 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'tomtom/tlib_vim'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'honza/vim-snippets'
+Plugin 'udalov/kotlin-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

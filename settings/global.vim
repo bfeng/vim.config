@@ -26,9 +26,9 @@ set switchbuf=useopen
 "set showtabline=1                     " not always show tab
 set wildmode=longest,list             " use emacs-style tab completion when selecting files, etc
 set wildmenu                          " make tab completion for files/buffers act like bash
-set key=			      " disable encryption
-"set t_Co=256
-let &t_Co=256
+set t_Co=256
+"let &t_Co=256
+let g:snipMate = { 'snippet_version' : 1 }
 
 
 " disable sound on errors
