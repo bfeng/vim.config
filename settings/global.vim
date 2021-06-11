@@ -54,7 +54,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 try
 	" support airline icons and italic fonts in molokai
 	if has('gui_running')
-		set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h12
+		set guifont=Source\ Code\ Pro\ for\ Powerline:h14
 	endif
 	colorscheme molokai
 catch
