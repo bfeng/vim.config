@@ -23,7 +23,7 @@ let g:airline#extensions#tabline#close_symbol = 'X'
 "let g:airline_symbols.paste = '∥'
 "let g:airline_symbols.whitespace = 'Ξ'
 "let g:airline_theme = 'molokai'
-let g:airline_theme = 'solarized'
+"let g:airline_theme = 'solarized'
 
 "let g:airline_symbols.space = "\ua0"
 
