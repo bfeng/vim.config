@@ -16,16 +16,20 @@ set title
 set showmode
 set nobomb                            " no BOM(Byte Order Mark)
 set nostartofline
+set encoding=utf-8
 set laststatus=2
 set clipboard+=unnamed
 set splitright                        " always open vertical split window in the right side
 set splitbelow                        " always open horizontal split window below
 set scrolloff=5                       " start scrolling when n lines away from margins
 set switchbuf=useopen
-set showtabline=2                     " always show tab
+"set showtabline=1                     " not always show tab
 set wildmode=longest,list             " use emacs-style tab completion when selecting files, etc
 set wildmenu                          " make tab completion for files/buffers act like bash
-set key=			      " disable encryption
+set t_Co=256
+"let &t_Co=256
+let g:snipMate = { 'snippet_version' : 1 }
+
 
 " disable sound on errors
 set visualbell
@@ -49,8 +53,7 @@ syntax enable
 " remove tailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
 
-try
-	colorscheme molokai
-catch
-	colorscheme default
-endtry
+" enable spell check for certain types
+autocmd FileType mail setlocal spell spelllang=en_us
+autocmd BufRead COMMIT_EDITMSG setlocal spell spelllang=en_us
+autocmd BufNewFile,BufRead *.tex,*.md,*.mkd,*.markdown set spell spelllang=en_us
