@@ -1,4 +1,5 @@
 .netrwhist
-bundle/*
 
-!bundle/Vundle.vim
+bundles/
+
+settings/custom.vim

@@ -1,8 +1,11 @@
 " NERDTree toggle
-nnoremap <silent> <F2> :NERDTreeMirrorToggle<CR>
+nnoremap <silent> <F2> :NERDTreeToggle<CR>
+
+" Taglist toggle
+nnoremap <silent> <F3> :TlistToggle<CR>
 
 " Disable search
-noremap <CR> :nolhsearch<CR>
+noremap <CR> :nohlsearch<CR>
 
 " comment
 map <Leader><Leader> <Leader>c<space>
