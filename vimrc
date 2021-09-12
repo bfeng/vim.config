@@ -52,3 +52,8 @@ source ~/.vim/settings/plugin.vim
 
 " Key bindings: shortcuts
 source ~/.vim/settings/maps.vim
+
+" Custom settings
+if filereadable(expand("~/.vim/settings/custom.vim"))
+    source ~/.vim/settings/custom.vim
+endif
