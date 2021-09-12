@@ -16,19 +16,35 @@ TBA
 
 ## Key bindings
 
-|Features|Mac iTerm|MacVim|GNOME Terminal|GVim|
-|--------|---------|------|--------------|----|
-|Toggle Nerd tree|F2|N/A|N/A|N/A|
-|Toggle Taglist window|N/A|N/A|N/A|N/A|
-|Previous tab|F7|N/A|N/A|N/A|
-|Next tab|F8|N/A|N/A|N/A|
-|Search files|Ctrl-P|N/A|N/A|N/A|
-|Comment/Uncomment selected lines| \\\\ |N/A|N/A|N/A|
-|Open a new tab| \\t |N/A|N/A|N/A|
-|Toggle presentation mode|N/A|N/A|N/A|N/A|
-|Edit/Create README.md in current directory|N/A|N/A|N/A|N/A|
+| Features                                   | Mac iTerm | MacVim | GNOME Terminal | GVim   |
+| ------------------------------------------ | --------- | ------ | -------------- | ------ |
+| Toggle Nerd tree                           | F2        | F2     | F2             | F2     |
+| Toggle Taglist window                      | F3        | F3     | F3             | F3     |
+| Previous tab                               | F7        | F7     | F7             | F7     |
+| Next tab                                   | F8        | F8     | F8             | F8     |
+| Search files                               | Ctrl-P    | Ctrl-P | Ctrl-P         | Ctrl-P |
+| Comment/Uncomment selected lines           | \\\\      | \\\\   | \\\\           | \\\\   |
+| Open a new tab                             | \\t       | \\t    | \\t            | \\t    |
+| Toggle presentation mode                   | N/A       | N/A    | N/A            | N/A    |
+| Edit/Create README.md in current directory | N/A       | N/A    | N/A            | N/A    |
+
+## Syntax highlight
+
+* C
+* C++
+* Java
+* Javascript
+* Python
+* Ruby
+* HTML
+* CSS
+* Markdown
+* Latex
+* **TBA**
 
 ## Bundle packages
 
+**TBA**
+
 ## License
-MIT License, see LICENS
+MIT License, see LICENSE file.
