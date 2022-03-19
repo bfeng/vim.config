@@ -1,16 +1,16 @@
 if &compatible
-  set nocompatible               " Be iMproved
+    set nocompatible               " Be iMproved
 endif
 
 " Required:
-set runtimepath+=~/.vim/bundles//repos/github.com/Shougo/dein.vim
+set runtimepath+=~/.vim/bundles/repos/github.com/Shougo/dein.vim
 
 " Required:
-call dein#begin('~/.vim/bundles/')
+call dein#begin(expand('~/.vim/bundles'))
 
 " Let dein manage dein
 " Required:
-call dein#add('~/.vim/bundles//repos/github.com/Shougo/dein.vim')
+call dein#add(expand('~/.vim/bundles/repos/github.com/Shougo/dein.vim'))
 
 call dein#add('wsdjeg/dein-ui.vim')
 call dein#add('vim-airline/vim-airline')
@@ -37,7 +37,7 @@ syntax enable
 " if dein#check_install()
 "   call dein#install()
 " endif
-"
+
 " Global settings
 source ~/.vim/settings/global.vim
 

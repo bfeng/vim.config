@@ -5,3 +5,9 @@
 [![Issue Count](https://codeclimate.com/github/bfeng/vim.config/badges/issue_count.svg)](https://codeclimate.com/github/bfeng/vim.config)
 
 [Github Pages](https://blog.jackphone.net/vim.config/)
+
+## First time install
+
+```shell
+sh ./installer.sh ~/.vim/bundles
+```
