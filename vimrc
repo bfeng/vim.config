@@ -54,6 +54,6 @@ source ~/.vim/settings/plugin.vim
 source ~/.vim/settings/maps.vim
 
 " Custom settings
-if filereadable(expand("~/.vim/settings/custom.vim"))
+if filereadable(expand('~/.vim/settings/custom.vim'))
     source ~/.vim/settings/custom.vim
 endif
